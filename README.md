@@ -55,7 +55,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/frontend-development.git
+git clone https://github.com/abdul-moominis-haq/frontend-development.git
 Navigate to the project directory:
 
 bash
