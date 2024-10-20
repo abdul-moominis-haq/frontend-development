@@ -8,26 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <div id="queston-container" class="hide">
+        <!-- Fixed typo here -->
+        <div id="question-container" class="hide">
+            <!-- Added a div to display the question -->
+            <div id="question" class="question">Question will appear here</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
-
+                <!-- These buttons will be dynamically created, no need for static ones -->
             </div>
-            
-
         </div>
+        
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
+        
+        <!-- Fixed the score ID to match the JS -->
         <div class="score">
-            <span id="right-answers"></span>
+            <span id="score">Score: 0</span>
         </div>
     </div>
+
     <script src="/Quiz application with html, css and JavaScript/script.js"></script>
-    
 </body>
 </html>
