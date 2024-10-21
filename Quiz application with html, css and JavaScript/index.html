@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Application</title>
-    <link rel="stylesheet" href="/Quiz application with html, css and JavaScript/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="/Quiz application with html, css and JavaScript/style.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <!-- Fixed typo here -->
-        <div id="question-container" class="hide">
-            <!-- Added a div to display the question -->
-            <div id="question" class="question">Question will appear here</div>
-            <div id="answer-buttons" class="btn-grid">
-                <!-- These buttons will be dynamically created, no need for static ones -->
-            </div>
+      
+      <div id="question-container" class="hide">
+       
+        <div id="question" class="question">Question will appear here</div>
+        <div id="answer-buttons" class="btn-grid">
+          
         </div>
-        
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
-        </div>
-        
-        <!-- Fixed the score ID to match the JS -->
-        <div class="score">
-            <span id="score">Score: 0</span>
-        </div>
+      </div>
+
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+
+      <div class="score">
+        <span id="score">Score: 0</span>
+      </div>
     </div>
 
     <script src="/Quiz application with html, css and JavaScript/script.js"></script>
-</body>
+  </body>
 </html>
